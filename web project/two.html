@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Hover Dropdown Menu</title>
+    <link rel="stylesheet" href="loginc.css">
+    <script src="loginj.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <button class="google-button" onclick="myfunc()"><i class="fa-brands fa-google"></i> Login with Google</button>
+        <form id="loginForm" onsubmit="return handleLogin(event)">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
